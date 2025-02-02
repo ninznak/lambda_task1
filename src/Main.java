@@ -9,11 +9,7 @@ public class Main {
             int c = calc.divide.apply(a, b);   // изначально не предусмотрена обработка исключения деления на ноль
             calc.println.accept(c);
         } catch (ArithmeticException e) {
-
             System.out.println("Деление на ноль!" + e.getMessage());
-
         }
-        int abb = calc.abs.apply(-6);
-        System.out.println(abb);
     }
 }
